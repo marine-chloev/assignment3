@@ -52,6 +52,7 @@
       display: flex;
       list-style: none;
       gap: 32px;
+      font-size: 18px;
     }
     
     nav .logo {
@@ -84,12 +85,35 @@
       border: none;
       cursor: pointer;
       transition: all 0.5s ease;
+    }
+    
+    .primary-btn:hover {
+      background-color: #F7F9ED;
       
     }
     
-    .primary-btn::hover {
-      background-color: #F7F9ED;
-      
+    #projects{
+      display: flex;
+      margin-top: 120px;
+      gap: 30px;
+      justify-content: center;
+    }
+    
+    .projects {
+      width: 300px;
+    }
+    
+    .projects p{
+      color: black;
+    }
+    
+    .projects img {
+      max-width: 100%;
+    }
+    
+    #about {
+      display: flex;
+      margin-top: 120px;
     }
     
   </style>
@@ -98,7 +122,7 @@
   <section id="header">
     <div class="container">
       <nav class="logo">
-        <h1> Marine's Portfolio </h1>
+        <h1> marine's portfolio </h1>
         
         <ul class="nav-links">
           <li> <a href="#"> home </a></li>
@@ -115,5 +139,58 @@
       </div>
     </div>   
   </section>
+  <section id="projects" class="container"> 
+    <div class="projects">
+      <img src="project1-m.jpg" alt="website redesign">
+      <h1> website redesign </h1>
+      <p>
+        The main goal of this rebrand was to strengthen the brand identity and ensure consistency across all platforms, including their restaurant, packaging, and social media. I redesigned their website to align with their packaging design and simplified the user interface for a more cohesive experience.
+      </p>
+    </div>
+    <div class="projects">
+      <img src="project2-m.jpg" alt="website redesign">
+      <h1> clothing </h1>
+      <p>
+        These pieces were made from second-hand materials, such as sweaters and tablecloths. Each piece represents a different character from the fable The Snow Queen and takes a unique approach to storytelling. The Snow Queen was a misunderstood character in a patriarchal environment, so for this project, I aimed to highlight the feminine side of each character.
+        
+        This has been my biggest project so far because of how much I contributed. I created four separate pieces using mixed materials, led a small group of models, directed a photoshoot, designed the scene layout for the show, and conceptualized the overall theme.
+      </p>
+    </div>
+    <div class="projects">
+      <img src="project3-m.jpg" alt="website redesign">
+      <h1> photography </h1>
+      <p>
+        shot on fujifilm xt-30
+      </p>
+    </div>
+  </section>
+  <section id="about" class="container">
+    <div class="about-content">
+      <h1> about me </h1>
+      <p> Hi! My name is Marine, and I like to call myself a designer across various mediums, especially graphic design and fashion. I am currently studying Global Business and Digital Arts at the University of Waterloo. I enjoy being creative and experimenting with different forms of design. Please take a look at my projects! </p>
+    </div>
+    <div class="about-img">
+      <img src="aboutme-img.jpg" alt="picture of marine">
+    </div>
+  </section>
+  
+  <section id="contact-me">
+    <div class="contact-me-content">
+      <h1> contact me!</h1>
+      <p> if you are interested in collaborating or have more question, email me personally!</p>
+      <button class="primary-btn"> get in touch </button>
+    </div>
+  </section>
+  
+  <footer>
+    <ul class="footerlinks">
+      <li><a href="#"> home</a></li>
+      <li><a href="#"> projects</a></li>
+      <li><a href="#"> about me</a></li>
+      <li><a href="#"> contact</a></li>
+    </ul>
+    <h1 class="logo"> marine vandame </h1>
+    <p> Thank you for scrolling all the way through </p>
+  </footer>
 </body>
 </html>
