@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+  <!--Google Font Embed code-->
+  <!-- Barrio/fun font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Poppins&family=Sora:wght@100..800&family=Tenor+Sans&display=swap" rel="stylesheet">
+  <!-- Montserrat/body font vibes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Sora:wght@100..800&family=Tenor+Sans&display=swap" rel="stylesheet">
+  <style>
+    *{
+      margin: 0;
+      padding: 0; 
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'montserrat', sans-serif;
+    }
+    
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    
+    #header {
+      width: 100vw;
+      min-height: 100vh;
+      background-image: url(firstpic-port.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: auto;
+    }
+    
+    nav{
+      display: flex;
+      justify-content: space-between;
+      padding: 32px 0; 
+    }
+    
+    nav ul{
+      display: flex;
+      list-style: none;
+      gap: 32px;
+    }
+    
+    nav .logo {
+      font-size: 20 px;
+      
+    }
+    
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px; 
+      flex-direction: column;
+      margin-top: 100px;
+    }
+    
+    .header-content h1 {
+      font-family: 'barrio';
+      font-size: 300px;
+      color: #0A0A0A;
+    }
+    
+    .header-content p {
+      font-size: 40px;
+    }
+    
+    .primary-btn {
+      padding: 10px 24px; 
+      background-color: #E09B44;
+      border: none;
+      cursor: pointer;
+      transition: all 0.5s ease;
+      
+    }
+    
+    .primary-btn::hover {
+      background-color: #F7F9ED;
+      
+    }
+    
+  </style>
+</head>
+<body>
+  <section id="header">
+    <div class="container">
+      <nav class="logo">
+        <h1> Marine's Portfolio </h1>
+        
+        <ul class="nav-links">
+          <li> <a href="#"> home </a></li>
+          <li> <a href="#"> projects </a></li>
+          <li> <a href="#"> about me </a></li>
+          <li> <a href="#"> contact </a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-content">
+        <h1> portfolio </h1>
+        <p> to my portfolio </p>
+        <button class="primary-btn"> discover my work </button>
+      </div>
+    </div>   
+  </section>
+</body>
+</html>
